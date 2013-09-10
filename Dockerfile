@@ -17,3 +17,4 @@ RUN apt-get dist-upgrade
 RUN apt-get clean
 
 RUN apt-get install build-essential fakeroot cowbuilder
+RUN apt-get install vim-nox git ack-grep procps net-tools
